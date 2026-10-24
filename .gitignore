@@ -1,0 +1,15 @@
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+Received_Files/*
+!Received_Files/.gitkeep
+
+.share_temp/
+share_temp/*
+qr_code.png
+app.py.bak
+qrcode.png

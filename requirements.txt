@@ -1,0 +1,1 @@
+The devices amonng which the file(s) is/are to be shared, need to be connected to the same network.
