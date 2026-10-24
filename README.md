@@ -1,6 +1,10 @@
 # Wireless File Share App
 
 A Python Flask application for sharing files wirelessly between a laptop and a mobile device using QR codes and a local Wi-Fi network.
+## Application Preview
+
+![QR Share Dashboard](assets/dashboard.png)
+
 
 ## Features
 
