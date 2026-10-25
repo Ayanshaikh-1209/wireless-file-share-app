@@ -1,39 +1,47 @@
 # Wireless File Share App
 
-A Python Flask application for sharing files wirelessly between a laptop and a mobile device using QR codes and a local Wi-Fi network.
+A Python Flask application that enables wireless file sharing between a laptop and a mobile device using QR codes and a local Wi-Fi network.
+
 ## Application Preview
 
 ![QR Share Dashboard](assets/dashboard.png)
 
-
 ## Features
 
-- QR-code-based mobile access
+- QR-code-based access from mobile devices
 - Laptop-to-mobile file sharing
 - Mobile-to-laptop file uploads
-- Local network file transfer
-- Built with Python and Flask
+- Wireless transfer over a local network
+- Simple web-based interface
+- Python Flask backend
+- QR code generation for convenient access
 
 ## Tech Stack
 
-- Python
-- Flask
-- QR code generation
+- **Language:** Python
+- **Backend:** Flask
+- **Interface:** HTML and CSS (where used by the application)
+- **Feature:** QR code generation
+- **Network:** Local Wi-Fi
 
 ## Project Structure
 
 ```text
 wireless-file-share-app/
-├── app.py
-├── server.py
-├── handler.py
-├── browser_launcher.py
-├── qr_generator.py
-├── requirements.txt
-└── utils.py
+|-- assets/
+|   `-- dashboard.png
+|-- app.py
+|-- server.py
+|-- handler.py
+|-- browser_launcher.py
+|-- qr_generator.py
+|-- requirements.txt
+|-- utils.py
+|-- .gitignore
+`-- README.md
 ```
 
-## Installation
+## Installation and Setup
 
 ### 1. Clone the repository
 
@@ -46,6 +54,11 @@ cd wireless-file-share-app
 
 ```powershell
 python -m venv .venv
+```
+
+Activate it on Windows PowerShell:
+
+```powershell
 .\.venv\Scripts\Activate.ps1
 ```
 
@@ -61,13 +74,29 @@ python -m pip install -r requirements.txt
 python app.py
 ```
 
-Follow the terminal instructions to access the application. For mobile access, connect both devices to the same trusted Wi-Fi network.
+Follow the terminal instructions to open the application.
 
-## Security
+## How to Use
 
-- Use the application on a trusted local network.
+1. Start the application on your laptop.
+2. Connect your laptop and mobile device to the same trusted Wi-Fi network.
+3. Open the mobile access link or scan the QR code provided by the application.
+4. Choose the available sharing option.
+5. Transfer files between your devices using the application's interface.
+
+## Security Notes
+
+- Use the application only on a trusted local network.
 - Do not expose the development server directly to the public internet.
-- Share only files you intend to transfer.
+- Transfer only files you intend to share.
+- Keep dependencies updated and validate files before opening them.
+
+## Future Improvements
+
+- File transfer progress indicators
+- Enhanced error handling
+- Additional file validation and security checks
+- Further improvements to mobile responsiveness
 
 ## Author
 
@@ -75,10 +104,6 @@ Follow the terminal instructions to access the application. For mobile access, c
 
 GitHub: [Ayanshaikh-1209](https://github.com/Ayanshaikh-1209)
 
-## Future Improvements
+## License
 
-- Responsive user interface
-- File transfer progress indicator
-- Improved error handling
-- Additional file validation and security
-
+This project is available for educational and portfolio purposes. A formal open-source license can be added if required.
