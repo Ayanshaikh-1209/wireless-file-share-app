@@ -1,15 +1,24 @@
 
+# Python cache
 __pycache__/
 *.py[cod]
+
+# Virtual environments and secrets
 .venv/
 venv/
 .env
+.env.*
 
+# Received files
 Received_Files/*
-!Received_Files/.gitkeep
 
+# Temporary files
 .share_temp/
-share_temp/*
-qr_code.png
-app.py.bak
+share_temp/
+
+# Generated QR codes
 qrcode.png
+qr_code.png
+
+# Backup files
+app.py.bak
